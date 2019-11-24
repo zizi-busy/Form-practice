@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <fieldset>
+
+            <form>
+                <legend><strong> Application form:</strong></legend> <br>
+
+                <div>
+                    <label for="first name">First name:</label>
+                    <input id="first name" type="text" placeholder="Jong Doe" required minlength="2" maxlength="20"
+                        pattern="[A-Z][a-z]{1,5}">
+                </div><br>
+
+                <div>
+                    <label for="last name">First name:</label>
+                    <input id="last name" type="text" )>
+                </div><br>
+
+                <div>
+                    <label for="Country">Country:</label>
+
+                    <select>
+                        <option>--Select Country--</option>
+
+                        <option>Finland</option>
+
+                        <option>Sweden</option>
+
+                        <option>Estonia</option>
+
+                        <option>Norway</option>
+
+                    </select>
+
+                </div><br>
+
+                <div>
+                    <label for="age">Age:</label>
+                    <input id="age" type="number">
+                </div><br>
+
+                <div>
+                    <label for="date of birth">Date of birth:</label>
+                    <input id="date of birth" type="date">
+                </div><br>
+
+                <div>
+                    <p><strong>Skills</strong></p>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="html" name="html">
+                    <label for="html">HTML</label>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="css" name="css">
+                    <label for="html">CSS</label>
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="js" name="js">
+                    <label for="js">java script</label>
+
+                </div> <br>
+
+                <div>
+                    <label for="email">email:</label>
+                    <input id="email" type="email" placeholder="email">
+                </div><br>
+
+                <div>
+                    <label for="phone number">Phone number:</label>
+                    <input id="phone number" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>>
+
+                    <small>Format: 123-456-7890</small>
+                </div>
+
+
+                <div>
+                    <p><strong>Gender</strong></p>
+
+                </div>
+
+                <div>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female </label>
+                </div>
+
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male </label>
+
+                </div>
+
+                <div>
+                    <input type="radio" id="Other" name="gender">
+                    <label for="other">Other </label>
+                </div><br>
+
+                <div>
+                    <label for="motivation">Motivation</label> </br>
+                    <textarea id="motivation" name="motivation" cols="80" rows="5"
+                        placeholder="Write something that motivates you"></textarea>
+                </div>
+                </br>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>
+
+</html>
