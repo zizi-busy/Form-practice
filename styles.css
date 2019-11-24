@@ -9,7 +9,8 @@ fieldset {
     width: 400px;
     margin: auto;
     background-color: #2f393b;
-    opacity: 0.5;
+    height: auto;
+
 
 }
 
@@ -22,6 +23,9 @@ legend {
 .container {
 
     background: url("back4.jpg") no-repeat center center/cover;
+    height: 100%;
+
+  
 
 }
 
