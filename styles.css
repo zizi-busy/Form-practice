@@ -1,7 +1,7 @@
 html body {
 
     color: white;
-
+    font-family: Arial, Helvetica, sans-serif
 }
 
 fieldset {
@@ -9,12 +9,12 @@ fieldset {
     width: 400px;
     margin: auto;
     background-color: #2f393b;
-    height: auto;
-
-
+    height: auto
 }
 
 legend {
+    padding: 20px;
+
     color: white;
     font-size: 24;
 
@@ -25,10 +25,31 @@ legend {
     background: url("back4.jpg") no-repeat center center/cover;
     height: 100%;
 
-  
-
 }
 
 label {
     color: white;
+}
+
+#motivation {
+    margin: 20px;
+    height: 150px;
+}
+
+div {
+
+    padding: 0px 20px;
+}
+
+
+#css {
+    padding: 30px 0px;
+}
+
+#submit-button {
+        display: block;
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
